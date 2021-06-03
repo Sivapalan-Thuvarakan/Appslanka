@@ -77,6 +77,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="contact">Contact</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="teams">Our Team</a>
+                </li>
                 </ul>
                 <span class="navbar-text">
                  call us :-0771964801

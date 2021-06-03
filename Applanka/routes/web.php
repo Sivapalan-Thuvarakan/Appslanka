@@ -14,12 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 //this return welcome blade file inside view folder
 
-Route::get('/', function () {
-    return view('pages.home');
-});
-Route::get('contact', function () {
-    return view('pages.contact');
-});
-Route::get('aboutus', function () {
-    return view('pages.about');
-});
+// Route::get('/', function () {
+//     return view('pages.home', ['company' => 'Awesomesolutions'],['tagline'=>'Your Happiness Our Assets']);
+// });
+
+Route::get('/', 'PageController@home');
+Route::get('/aboutus', 'PageController@about');
+Route::get('contact', 'PageController@contact');
+Route::get('teams','PageController@teams');
